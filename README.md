@@ -4,6 +4,7 @@ This project is a simple but practical attempt to understand and detect **prompt
 
 The idea behind this project is to act as a **security layer** that checks user prompts *before* they are sent to an AI model, and flags inputs that look suspicious or risky.
 
+---
 
 ## Motivation
 
@@ -16,6 +17,7 @@ Users can sometimes manipulate prompts to:
 
 While many AI applications focus on generating responses, this project focuses on **analyzing the input itself** and deciding whether it is safe to proceed.
 
+---
 
 ## What this system does
 
@@ -27,6 +29,7 @@ The system checks a user’s prompt and answers questions like:
 
 Instead of just saying *safe* or *unsafe*, the system explains its decision in a way that is easy to understand.
 
+---
 
 ## How detection works (in simple terms)
 
@@ -47,6 +50,7 @@ The final output includes:
 - Explanation  
 - Model uncertainty (for transparency)
 
+---
 
 ## User Interface
 
@@ -59,6 +63,7 @@ The project includes a Streamlit-based interface where:
 
 The UI is intentionally kept simple and clean.
 
+---
 
 ## Tech Stack
 
@@ -69,6 +74,7 @@ The UI is intentionally kept simple and clean.
 
 No external APIs are required.
 
+---
 
 ## How to run the project
 
